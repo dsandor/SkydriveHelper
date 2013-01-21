@@ -94,7 +94,7 @@
 
         </Grid>
 
-        <Controls:SignInButton Content="SignInButton" VerticalAlignment="Center" ClientId="000000004C0E0036" SessionChanged="SignInButton_SessionChanged"
+        <Controls:SignInButton Content="SignInButton" VerticalAlignment="Center" ClientId="0000000000000000" SessionChanged="SignInButton_SessionChanged"
                                Scopes="wl.basic,wl.skydrive" Margin="0,151,0,0.057" Height="66" Grid.RowSpan="2"/>
         <TextBlock HorizontalAlignment="Left" Margin="171,24.712,0,0" Grid.Row="1" TextWrapping="Wrap" Text="User:" VerticalAlignment="Top" Height="27" Width="45" Visibility="Collapsed"/>
         <TextBlock HorizontalAlignment="Left" Margin="230,24.712,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Text="{Binding UserInfo.FirstName, FallbackValue=firstname}" Foreground="#FFACE6C1" Height="27" Width="83" Visibility="Collapsed"/>
